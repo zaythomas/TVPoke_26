@@ -20,6 +20,8 @@ class Electric(Pokemon):
     def __init__(self, name, hp, moves, imgPath):
         super().__init__(name, hp, "ELECTRIC", "GROUND", moves, imgPath)
 
-
+class Ghost(Pokemon):
+    def __init__(self, name, hp, type, critType, moves, imgPath):
+        super().__init__(name, hp, "GHOST", "GHOST", moves, imgPath)
 
         
